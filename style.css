@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+
+nav ul{
+    display: flex;
+    padding-top: 20px;
+}
+
+.logo img{
+    padding: 0 25px;
+   
+}
+nav{
+    height: 60px;   
+}
+
+nav ul li {
+    padding-right:20px ;
+    list-style: none;  
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid black ;
+    padding-bottom: 2px;
+    
+}
+
+select {
+    border: 1px solid #F2F2F2;
+}
+
+#search{
+    border: 1px solid #F2F2F2;
+}
+
+#sch{
+    border: 1px solid#F2F2F2;  
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 50px;
+    position: sticky;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 30px ;
+}
+
+.box1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.box1 a:hover{
+   text-decoration: underline;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+}
+.box2{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px 30px ;
+
+}
+.box2 a{
+    text-decoration: none;
+    color: darkblue ;
+    
+}
+.box2 a:hover{
+    border-bottom: 2px solid darkblue ;
+    padding-bottom: 1px;
+
+}
+.start {
+    display: flex;
+    justify-self: start;
+}
+.container2{
+    padding-top: 50px ;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    padding-left: 30px;
+}
+
+.container4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    background-color: gainsboro;
+    width: 75%;
+
+}
+.container4 a{
+    text-decoration: none;
+    color: darkblue;
+    padding-bottom: 30px;
+    background-color: gainsboro;
+}
+.container4 a:hover{
+    text-decoration: underline;
+
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container5{
+    display: flex;
+    padding: 20px 30px;
+}
+.container5 i{
+    margin-left: 20px;
+}
+
+h1{
+    background-color: gainsboro;
+}
+
+.container4 p{
+    background-color: gainsboro;
+
+}
+
+.container6{
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: row;
+}
+
+.box3{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    padding: 50px 50px;
+    background-color: gainsboro;
+}
+.box3 a{
+    background-color: gainsboro;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: black;
+}
+.container6 b{
+    background-color: gainsboro;
+}
+
+.container6 a:hover{
+   text-decoration: underline;
+
+}
