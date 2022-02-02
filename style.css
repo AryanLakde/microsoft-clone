@@ -56,6 +56,13 @@ select {
     border: 1px solid#F2F2F2;  
 }
 
+#profile{
+    padding-left: 15px;
+}
+
+#Cart{
+    padding-left: 15px;
+}
 .container1{
     display: flex;
     justify-content: center;
